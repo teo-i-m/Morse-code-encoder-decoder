@@ -1,0 +1,28 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../../../../../../2025.1/Vivado/data/rsb/busdef" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/binar.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/codare.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/comp_0.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/comp_9.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/comp_A.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/comp_Z.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/comp_a_min.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/comp_space.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/comp_z_min.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/fifo.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/fsm_decodare.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/morse_fsm.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/mux_2b.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/nor_4b.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/scazator_32.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/top_verificare_codare.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/uart_rx.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/uart_tx.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/verificare_caracter.sv" \
+"../../../../morse_encoder_decoder.srcs/sources_1/new/morse_codor_decodor_uart.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

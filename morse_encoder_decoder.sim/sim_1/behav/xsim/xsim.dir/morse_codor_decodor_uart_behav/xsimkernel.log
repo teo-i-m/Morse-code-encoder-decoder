@@ -1,0 +1,4 @@
+Running: xsim.dir/morse_codor_decodor_uart_behav/xsimk.exe -simmode gui -wdb morse_codor_decodor_uart_behav.wdb -simrunnum 0 -socket 62018
+Design successfully loaded
+Design Loading Memory Usage: 11160 KB (Peak: 11160 KB)
+Design Loading CPU Usage: 15 ms

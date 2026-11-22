@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Jun 24 00:20:03 2026
+# Process ID: 17332
+# Current directory: C:/Users/Teo/Desktop/licenta/morse_codor_decodor_uart
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent71860 C:\Users\Teo\Desktop\licenta\morse_codor_decodor_uart\morse_encoder_decoder.xpr
+# Log file: C:/Users/Teo/Desktop/licenta/morse_codor_decodor_uart/vivado.log
+# Journal file: C:/Users/Teo/Desktop/licenta/morse_codor_decodor_uart\vivado.jou
+# Running On: DESKTOP-E0R0B6N, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 17024 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Teo/Desktop/licenta/morse_codor_decodor_uart/morse_encoder_decoder.xpr
+update_compile_order -fileset sources_1
